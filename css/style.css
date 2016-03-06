@@ -1,18 +1,53 @@
-body{
-	margin:40px auto;
-	max-width:650px;
-	line-height:1.6;
-	font-size:18px;
-	color:#444;
-	padding:0 10px;
+body {
+  margin: 40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #fdfdfd;
+  background-color: #181818;
+  padding: 0 10px;
+  font-family: "Helvetica Neue";
+  font-weight: 200;
 }
-
-h1, h2, h3{
-	line-height:1.2
+h1, h2, h3 {
+  line-height: 1.2;
+  font-weight: 200;
 }
-
 #q-results li {
-	color: #006fff;
-	cursor: pointer;
-	text-decoration: underline;
+  color: #1ED860;
+  cursor: pointer;
+  text-decoration: none;
+}
+#q-results li:hover {
+  color: #aaa;
+}
+.albumArt {
+  width: 150px;
+  float: left;
+  display: inline-block;
+}
+.tracks {
+  clear: both;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+hr {
+  margin: 40px 0;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+img {
+  margin: 0 30px 30px 0;
+}
+p {
+  margin: 1px 0;
+}
+h4 {
+  margin-bottom: 1px;
+}
+ol {
+  padding-left: 30px;
+}
+.date, .popularity {
+  color: #aaa;
 }
